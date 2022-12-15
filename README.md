@@ -1,4 +1,4 @@
-###Solar panel energy calculator
+### Solar panel energy calculator
 
 -This is project I made for calculating energy saved/aquired using solar panels.
 -In this project I used basic frontend JS for manipulation of the DOM and inputing of the results and basic CSS to make layout and style for my application.
