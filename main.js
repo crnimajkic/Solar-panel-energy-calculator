@@ -25,7 +25,7 @@ const calculate = () => {
 
   }else{
 
-    resultWrapper.innerHTML = `<p class = "warning"> You must fill all inputs corectly before you calculate!</p>`
+    resultWrapper.innerHTML = `<p class = "warning"> You must fill all inputs correctly before you calculate!</p>`
 
   }
 
