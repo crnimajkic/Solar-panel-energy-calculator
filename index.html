@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar panel energy calculator</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="loader"></div>
+    <section class="onlySec">
+        <div class="overlay"></div>
+
+        <div class="heading">
+            <h1>Solar panel energy calculator</h1>
+            <p>You can input data down below to calculate your energy producement.</p>
+        </div>
+        <div class="container">
+            <div class="inputWraper">
+                <label for="hours">Number of sunny hours in the day:</label>
+                <input type="number" id="hours" min="1" max="24">
+            </div>
+            <div class="inputWraper">
+                <label for="wats">Power of the each panel [W]:</label>
+                <input type="number" id="wats" min="1">
+            </div>
+            <div class="inputWraper">
+                <label for="numberOfPanels">Number of panels:</label>
+                <input type="number" id="numberOfPanels" min="1">
+            </div>
+            <button class="calculate">Calculate</button>
+        </div>
+        <div class="result-wrapper"></div>
+
+
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
