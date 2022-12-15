@@ -1,6 +1,7 @@
-#### Solar panel energy calculator
+## Solar panel energy calculator
 
 -This is project I made for calculating energy saved/aquired using solar panels.
+# -You can use it on https://crnimajkic.github.io/Solar-panel-energy-calculator/
 -In this project I used basic frontend JS for manipulation of the DOM and inputing of the results and basic CSS to make layout and style for my application.
 -In next picture you can see interface, the input fields and calculate button.
 ![Capture](https://user-images.githubusercontent.com/105221872/207903039-ab29da67-cd7e-4dd0-aa73-f4d75468051d.PNG)
